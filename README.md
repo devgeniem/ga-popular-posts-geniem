@@ -1,5 +1,7 @@
 # ga-popular-posts-geniem
-Wordpress plugin that provides a set of methods to fetch and use most popular posts from Google Analytics
+Wordpress plugin for developers that provides a basic set of methods to fetch and use most popular posts from Google Analytics.
+
+Due of the nature of how Google Analytics and it's API works, this is not a plug'n'play style plugin and it will require a few steps to set up.
 
 ## Setup ##
 
