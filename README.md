@@ -1,7 +1,8 @@
+![geniem-github-banner](https://cloud.githubusercontent.com/assets/5691777/14319886/9ae46166-fc1b-11e5-9630-d60aa3dc4f9e.png)
 # ga-popular-posts-geniem
 Wordpress plugin for developers that provides a basic set of methods to fetch and use most popular posts from Google Analytics.
 
-Due of the nature of how Google Analytics and it's API works, this is not a plug'n'play style plugin and it will require a few steps to set up.
+Due to the nature of how Google Analytics and it's API works, this is not a plug'n'play plugin. It takes a few steps to set up this up, so please be patient.
 
 ## Setup ##
 
@@ -90,6 +91,13 @@ function getAllSingleTopPosts()
 ```
 After running this, you should have data in options table with the name set in the function, in this case `ga_all_top_posts`. You can get to this data by running `$top_posts = get_option('ga_all_top_posts');`.
 
+If you want to filter the results by category, you replace the filter part with:
+```php
+// Set filters for the query
+    $gaPopularPosts->setFilters(array(
+        'ga:dimension2' => $category
+    ));
+```
 You might want to run this in cronjob to keep the data up to date.
 
 A good way to explore the API and test out filtering is here: http://ga-dev-tools.appspot.com/explorer/
