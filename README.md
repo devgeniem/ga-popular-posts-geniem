@@ -86,6 +86,8 @@ function getAllSingleTopPosts()
     update_option($cache_name, $report);
 }
 ```
-After running this, you should have data in options table with the name set in the function, in this case 'ga_all_top_posts'. You might want to run this in cronjob to keep the data up to date.
+After running this, you should have data in options table with the name set in the function, in this case `ga_all_top_posts`. 
+
+You might want to run this in cronjob to keep the data up to date.
 
 A good way to explore the API and test out filtering is here: http://ga-dev-tools.appspot.com/explorer/
