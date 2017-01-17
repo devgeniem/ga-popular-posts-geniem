@@ -1,6 +1,6 @@
 ![geniem-github-banner](https://cloud.githubusercontent.com/assets/5691777/14319886/9ae46166-fc1b-11e5-9630-d60aa3dc4f9e.png)
 # ga-popular-posts-geniem
-Wordpress plugin for developers that provides a basic set of methods to fetch and use most popular posts from Google Analytics.
+A library for developers that provides a basic set of methods to fetch and use most popular posts from Google Analytics.
 
 Due to the nature of how Google Analytics and it's API works, this is not a plug'n'play plugin. It takes a few steps to set up this up, so please be patient.
 
@@ -23,7 +23,7 @@ You now should have two things, `View ID` and the Service Account Key JSON file.
 
 ### Google Analytics Tracking Code on your website
 
-You need to do some dynamic customisation in your tracking code to enable single post tracking:
+You need to do some dynamic customisation in your tracking code to enable single post tracking (in Dustpress style):
 
 ```javascript
 <script>
