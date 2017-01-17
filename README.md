@@ -94,9 +94,9 @@ After running this, you should have data in options table with the name set in t
 If you want to filter the results by category, you replace the filter part with:
 ```php
 // Set filters for the query
-    $gaPopularPosts->setFilters(array(
-        'ga:dimension2' => $category
-    ));
+$gaPopularPosts->setFilters(array(
+    'ga:dimension2' => $category
+));
 ```
 You might want to run this in cronjob to keep the data up to date.
 
