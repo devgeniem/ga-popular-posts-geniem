@@ -13,9 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-// Autoload
-require_once __DIR__ . '/vendor/autoload.php';
-
 /**
  * Class GAPopularPosts
  *
