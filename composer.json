@@ -1,7 +1,11 @@
 {
     "name": "devgeniem/ga-popular-posts-geniem",
-    "type": "wordpress-plugin",
-    "description": "Provides a set of methods to fetch and use most popular posts from Google Analytics",
+    "description" : "Provides a set of methods to fetch and use most popular posts from Google Analytics.",
+    "homepage" : "https://github.com/devgeniem/ga-popular-posts-geniem",
+    "license" : "GPL-3.0",
+    "require": {
+        "google/apiclient": "^2.0"
+    },
     "authors": [
         {
             "name": "Henri Kuittinen",
@@ -10,10 +14,10 @@
             "role": "Senior Developer"
         }
     ],
-    "require": {
-        "google/apiclient": "^2.0",
-        "composer/installers": ">=v1.0.12"
+    "support" : {
+        "source" : "https://github.com/devgeniem/ga-popular-posts-geniem"
     },
-    "license": "GPL-3.0",
-    "minimum-stability": "dev"
+    "autoload": {
+        "files": ["ga-popular-posts-geniem.php"]
+    }
 }

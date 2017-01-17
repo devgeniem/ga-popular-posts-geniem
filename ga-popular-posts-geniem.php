@@ -1,17 +1,4 @@
 <?php
-/*
-Plugin Name: Google Analytics Popular Posts by Geniem
-Plugin URI: https://geniem.io
-Version: 0.0.3
-Description: Provides a set of methods to fetch and use most popular posts from Google Analytics
-Author: Henri Kuittinen
-Author URI: https://geniem.io
-*/
-
-// Exit if accessed directly
-if ( ! defined( 'ABSPATH' ) ) {
-    exit;
-}
 
 /**
  * Class GAPopularPosts
