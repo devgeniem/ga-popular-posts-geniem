@@ -4,7 +4,7 @@
     "homepage" : "https://github.com/devgeniem/ga-popular-posts-geniem",
     "license" : "GPL-3.0",
     "require": {
-        "google/apiclient": "^2.0"
+        "usabilitydynamics/google-api-php-client": "^2.0.0"
     },
     "authors": [
         {
